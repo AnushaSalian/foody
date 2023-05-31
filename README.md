@@ -4,8 +4,8 @@
 - The Foody is developed using HTML, Javascript and CSS.
 
 #### Main features included in the web page:
-- Display/hide modal window and backdrop
-- Smotth scrolling effect
+- Display & hide modal window and backdrop
+- Smooth scrolling effect
 - Sticky navigation bar
 - Activating tabbed components
 - Slider animation

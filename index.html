@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>FOODY</title>
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img class="logo" alt="FOODY Logo" src="images/logo.png" />
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn__signup" href="#section--5"
+              >Try for free</a
+            >
+          </li>
+        </ul>
+        <div class="resp__nav">
+          <ion-icon
+            class="resp__nav--menu menu-outline"
+            name="menu-outline"
+          ></ion-icon>
+          <ion-icon
+            class="resp__nav--menu menu-close"
+            name="close-outline"
+          ></ion-icon>
+        </div>
+      </nav>
+
+      <div class="main__header">
+        <div class="header__description">
+          <h1 class="header-main-heading">
+            <span class="highlight">Eat</span> Healthy,
+            <span class="highlight">Live</span> Healthy
+          </h1>
+          <h2 class="header__desc">
+            Food is essential to life therefore make it good. Eat nutritious
+            food every day that's customised to your preferences and dietary
+            requirements. Every day at your convenience, we will deliver the
+            meal you have chosen to your door. You can modify your delivery
+            schedule and address on a daily basis!
+          </h2>
+
+          <div class="header-btns">
+            <a class="btn__signup" href="#">Try for free</a>
+            <a class="btn btn__learn__more" href="">Learn More &darr;</a>
+          </div>
+
+          <div class="header__tertiary__desc--div">
+            <div class="header__customer">
+              <img alt="smiley customer" src="images/face1.jpg" />
+              <img alt="smiley customer" src="images/face2.jpg" />
+              <img alt="smiley customer" src="images/face3.jpg" />
+              <img alt="smiley customer" src="images/face4.jpg" />
+              <img alt="smiley customer" src="images/face5.jpg" />
+            </div>
+            <div class="header__tertiary--desc">
+              <span class="header__tertiary__desc--span"
+                ><span class="header__tertiary__desc-count">5,000+</span> people
+                started eating well.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="header-img">
+          <img alt="header image" src="images/header.png" />
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- FEATURES -->
+      <section class="section" id="section--1">
+        <div class="section-div">
+          <div class="section-header">
+            <h2 class="section-title">FEATURES</h2>
+            <h3 class="section-sub-title">
+              Start consuming healthy food at home without any effort.
+            </h3>
+          </div>
+
+          <div class="features">
+            <div class="features--tab-container">
+              <button
+                class="btn features__tab features__tab--1 features__tab--active"
+                data-tab="1"
+              >
+                <span>01.</span> Daily coverage
+              </button>
+              <button class="btn features__tab features__tab--2" data-tab="2">
+                <span>02.</span> Fast delivery
+              </button>
+              <button class="btn features__tab features__tab--3" data-tab="3">
+                <span>03.</span> 100% hygenic
+              </button>
+              <button class="btn features__tab features__tab--4" data-tab="4">
+                <span>04.</span> No order limit
+              </button>
+            </div>
+
+            <div class="features__content features__content--1">
+              <div class="features__icon features__icon--1">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <h5 class="features__header">
+                You can eat for 365days of the yaer without any effort
+              </h5>
+              <p class="features__desc">
+                Food is essential to life therefore make it good. Eat nutritious
+                food every day that's customised to your preferences and dietary
+                requirements. Our subscription options give up to 365 days of
+                coverage each year. If that's what you prefer, you may also
+                order with greater flexibility. So you'll never have to cook
+                again!
+              </p>
+            </div>
+
+            <div
+              class="features__content features__content--2 features__content--hidden"
+            >
+              <div class="features__icon features__icon--2">
+                <ion-icon name="alarm-outline"></ion-icon>
+              </div>
+              <h5 class="features__header">
+                You can recieve your order quickly
+              </h5>
+              <p class="features__desc">
+                Food is essential to life therefore make it good. Eat nutritious
+                food every day that's customised to your preferences and dietary
+                requirements. Your tasty and nutritious meals will be delivered
+                to your door in thirty minutes. We work with the best chefs in
+                each area to assure your complete satisfaction.
+              </p>
+            </div>
+
+            <div
+              class="features__content features__content--3 features__content--hidden"
+            >
+              <div class="features__icon features__icon--3">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+              <h5 class="features__header">
+                You can have nutritious food daily without skipping your dietry
+                plans
+              </h5>
+              <p class="features__desc">
+                Food is essential to life therefore make it good. Eat nutritious
+                food every day that's customised to your preferences and dietary
+                requirements. For meal preparation, we use fresh, organic, and
+                locally grown veggies. Animals are grown without the use of
+                hormones or antibiotics. It's more beneficial for your health,
+                the environment, and it tastes better!
+              </p>
+            </div>
+
+            <div
+              class="features__content features__content--4 features__content--hidden"
+            >
+              <div class="features__icon features__icon--4">
+                <ion-icon name="infinite-outline"></ion-icon>
+              </div>
+              <h5 class="features__header">
+                You can order anything you like to eat
+              </h5>
+              <p class="features__desc">
+                Food is essential to life therefore make it good. Eat nutritious
+                food every day that's customised to your preferences and dietary
+                requirements. Don't limit yourself, you can order whatever you
+                feel like to eat. You can select from our menu containing over
+                100 delicious meals. So order anything.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OPERATIONS -->
+      <section class="section" id="section--2">
+        <div class="section-div">
+          <div class="section-header">
+            <h2 class="section-title">OPERATIONS</h2>
+            <h3 class="section-sub-title">
+              In three easy steps, you can get your daily dose of health.
+            </h3>
+          </div>
+
+          <div class="operations">
+            <div class="operations_contents operations_contents--1">
+              <div class="step-img-box">
+                <img
+                  class="operation__img"
+                  alt="Personalize your meal app screen"
+                  src="images/app-screen-1.png"
+                />
+              </div>
+              <div>
+                <h3 class="operations-count">01</h3>
+                <h4 class="operations-title">Personalize your meal</h4>
+                <p class="operations-desc">
+                  Never again waste time deciding what to eat! Foody AI will
+                  generate a completely customised monthly food plan
+                  specifically for you. It ensures that you get all of the
+                  nutrients and vitamins you require, regardless of your diet!
+                </p>
+              </div>
+            </div>
+
+            <div class="operations_contents operations_contents--2">
+              <div>
+                <h3 class="operations-count">02</h3>
+                <h4 class="operations-title">Choose your monthly meal plan</h4>
+                <p class="operations-desc">
+                  Once a month, choose your meal plan from the options provided
+                  by Foody AI. You can adjust ingredients, swap out complete
+                  meals, or even suggest your own recipes.
+                </p>
+              </div>
+              <div class="step-img-box">
+                <img
+                  class="operation__img"
+                  alt="Choose your monthly meal plan app screen"
+                  src="images/app-screen-2.png"
+                />
+              </div>
+            </div>
+
+            <div class="operations_contents operations_contents--3">
+              <div class="step-img-box">
+                <img
+                  class="operation__img"
+                  alt="Personalize your meal app screen"
+                  src="images/app-screen-3.png"
+                />
+              </div>
+              <div>
+                <h3 class="operations-count">03</h3>
+                <h4 class="operations-title">
+                  Set your convenient time to deliver meals
+                </h4>
+                <p class="operations-desc">
+                  Every day at your convenience, we will deliver the meal you
+                  have chosen to your door. You can modify your delivery
+                  schedule and address on a daily basis!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="section--3">
+        <div class="section-div">
+          <div class="section-header">
+            <h2 class="section-title">TESTIMONIALS</h2>
+            <h3 class="section-sub-title">
+              Once you start, you will never stop using Foody AI.
+            </h3>
+          </div>
+
+          <div class="testimonials">
+            <div class="testimonials__div">
+              <div class="testimonials-content testimonials--1">
+                <img class="testimonials-face" src="images/test1.jpg" />
+                <span class="testimonials-quote">''</span>
+                <blockquote class="testimonials-desc">
+                  Inexpensive, healthy and great-tasting meals, delivered right
+                  to my home. We have lots of food delivery app here, but I
+                  prefer Foody. My entire family loves Foody!
+                </blockquote>
+
+                <p class="testimonials-name">Anonymous</p>
+                <p class="testimonials-place">Place</p>
+              </div>
+
+              <div class="testimonials-content testimonials--2">
+                <img class="testimonials-face" src="images/test2.jpg" />
+                <span class="testimonials-quote">"</span>
+                <p class="testimonials-desc">
+                  With my professional life, I had no time for cooking. Foody is
+                  a life saver! I can't live without my daily meals now!
+                </p>
+
+                <p class="testimonials-name">Anonymous</p>
+                <p class="testimonials-place">Place</p>
+              </div>
+
+              <div class="testimonials-content testimonials--3">
+                <img class="testimonials-face" src="images/test3.jpg" />
+                <span class="testimonials-quote">"</span>
+                <p class="testimonials-desc">
+                  I can get free time now after I have started ordering food
+                  from Foody. I will get more time to spend with my family.
+                  Everything is organic and vegan and without plastic.
+                </p>
+
+                <p class="testimonials-name">Anonymous</p>
+                <p class="testimonials-place">Place</p>
+              </div>
+
+              <div class="testimonials-content testimonials--4">
+                <img class="testimonials-face" src="images/test4.jpg" />
+                <span class="testimonials-quote">"</span>
+                <blockquote class="testimonials-desc">
+                  I was looking for a quick and easy food delivery service. I
+                  tried a lot of them and ended up with Foody as it keeps up my
+                  dietry plans. Thanks for being my life saver.
+                </blockquote>
+
+                <p class="testimonials-name">Anonymous</p>
+                <p class="testimonials-place">Place</p>
+              </div>
+            </div>
+
+            <div class="prev-arr arr-btns">
+              <span class="left-arr arr">&larr;</span>
+            </div>
+
+            <div class="next-arr arr-btns">
+              <span class="right-arr arr">&rarr;</span>
+            </div>
+            <div class="dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="section" id="section--4">
+        <div class="section-div">
+          <div class="section-header">
+            <h2 class="section-title">PRICING</h2>
+            <h3 class="section-sub-title">
+              In three easy steps, you can get your daily dose of health.
+            </h3>
+          </div>
+
+          <div class="pricing">
+            <div class="pricing-tab pricing__tab--1">
+              <h3 class="pricing__title">Starter</h3>
+              <h4 class="pricing-price">
+                $<span class="pricing-rate">499</span>
+                <span class="pricing-desc"
+                  >per month. That's just $16 per meal!</span
+                >
+              </h4>
+              <ul class="pricing-lists">
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="fast-food-outline"></ion-icon
+                  ></span>
+                  <span>1 meal per day</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="time-outline"></ion-icon></span
+                  ><span>Order from 11am to 8pm</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="archive-outline"></ion-icon></span
+                  ><span>Delivery is free</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="lock-open-outline"></ion-icon
+                  ></span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="bookmarks-outline"></ion-icon
+                  ></span>
+                </li>
+              </ul>
+              <a class="btn__signup" href="#">Try for free</a>
+            </div>
+
+            <div class="pricing-tab pricing__tab--2">
+              <h3 class="pricing__title">Pro</h3>
+              <h4 class="pricing-price">
+                $<span class="pricing-rate">799</span>
+                <span class="pricing-desc"
+                  >per month. That's just $26 per meal!</span
+                >
+              </h4>
+              <ul class="pricing-lists">
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="fast-food-outline"></ion-icon
+                  ></span>
+                  <span>2 meal per day</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="time-outline"></ion-icon></span
+                  ><span>Order from 11am to 11am</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="time-outline"
+                      ><ion-icon
+                        name="archive-outline"
+                      ></ion-icon></ion-icon></span
+                  ><span>Delivery is free</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="lock-open-outline"></ion-icon></span
+                  ><span>Get access to latest recipes</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="bookmarks-outline"></ion-icon
+                  ></span>
+                </li>
+              </ul>
+              <a class="btn__signup" href="#">Try for free</a>
+            </div>
+
+            <div class="pricing-tab pricing__tab--3">
+              <h3 class="pricing__title">Premium</h3>
+              <h4 class="pricing-price">
+                $<span class="pricing-rate">1299</span>
+                <span class="pricing-desc"
+                  >per month. That's just $43 per meal!</span
+                >
+              </h4>
+              <ul class="pricing-lists">
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="fast-food-outline"></ion-icon></span
+                  ><span>2 meal per day</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="time-outline"></ion-icon></span
+                  ><span>Order 24/7</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="archive-outline"></ion-icon></span
+                  ><span>Delivery is free</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="lock-open-outline"></ion-icon></span
+                  ><span>Get access to latest recipes</span>
+                </li>
+                <li class="pricing-item">
+                  <span class="pricing-icon"
+                    ><ion-icon name="bookmarks-outline"></ion-icon></span
+                  ><span>Modify delivery schedule, address and recipes</span>
+                </li>
+              </ul>
+              <a class="btn__signup" href="#">Try for free</a>
+            </div>
+          </div>
+
+          <p class="pricing-condition">
+            Prices include all applicable taxes. You can cancel at any time.
+          </p>
+
+          <div class="photo-gallery">
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg1.jpg"
+              />
+            </div>
+
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg9.jpg"
+              />
+            </div>
+
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg7.jpg"
+              />
+            </div>
+
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg2.jpg"
+              />
+            </div>
+
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg10.jpg"
+              />
+            </div>
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg5.jpg"
+              />
+            </div>
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg11.jpg"
+              />
+            </div>
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg3.jpg"
+              />
+            </div>
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg12.jpg"
+              />
+            </div>
+
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg4.jpg"
+              />
+            </div>
+
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg8.jpg"
+              />
+            </div>
+
+            <div class="photo-image-div">
+              <img
+                class="photo-image"
+                alt="delicious food image"
+                src="images/pg/pg6.jpg"
+              />
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+
+      <!-- SIGNUP FOR FREE -->
+      <section class="section" id="section--5">
+        <div class="section-div">
+          <h3 class="section-sub-title">
+            The best day to join
+            <img class="logo" alt="FOODY Logo" src="images/logo.png" /> was
+            yesterday. The next best day is today! Join immediately and grab the
+            best deals!
+          </h3>
+          <div class="signup">
+            <a class="btn__signup" href="#">Try for free</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-div">
+        <ul class="footer-lists">
+          <li class="footer-link"><a class="footer-item" href="#">About</a></li>
+          <li class="footer-link">
+            <a class="footer-item" href="#">Pricing</a>
+          </li>
+          <li class="footer-link">
+            <a class="footer-item" href="#">Terms of Use</a>
+          </li>
+          <li class="footer-link">
+            <a class="footer-item" href="#">Privacy Ploicy</a>
+          </li>
+          <li class="footer-link">
+            <a class="footer-item" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <img class="footer-logo" alt="FOODY Logo" src="images/logo.png" />
+        <ul class="footer-lists">
+          <li class="footer-link">
+            <a class="footer-item" href="#"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li class="footer-link">
+            <a class="footer-item" href="#"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li class="footer-link">
+            <a class="footer-item" href="#"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <p class="copyright">
+          &copy; Copyright by Anusha Salian. All rights reserved.
+        </p>
+        <div class="credits">
+          Credits :
+          <a href="https://www.udemy.com/user/jonasschmedtmann/"
+            >Jonas Schmedtmann</a
+          >
+          and
+          <a href="https://unsplash.com/">unsplash.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop hide"></div>
+    <div class="modal hide">
+      <div class="modal-div">
+        <div
+          class="modal__img__div"
+          role="img"
+          aria-label="Woman having her meal"
+        ></div>
+        <div class="modal__form__div">
+          <button class="close__modal">X</button>
+          <h3 class="modal-title">Signup to get your first meal for free!</h3>
+          <p class="modal-description">
+            Healthy, tasty and hassle-free meals are waiting for you. Start
+            eating well. You can cancel or pause anytime.
+          </p>
+          <form class="modal-form">
+            <div>
+              <label class="form__label full__name" for="full-name"
+                >Full Name</label
+              >
+              <input
+                class="format_input"
+                id="full-name"
+                type="text"
+                placeholder="Anusha Salian"
+              />
+            </div>
+
+            <div>
+              <label class="form__label email" for="e-mail">Email</label>
+              <input
+                class="format_input"
+                id="e-mail"
+                type="text"
+                placeholder="me@example.com"
+              />
+            </div>
+
+            <div>
+              <label class="form__label hear-us" for="hear-us">
+                How do you know us?</label
+              >
+              <select class="format_input" name="option" id="hear">
+                <option class="option__nil" value="Nil">
+                  Please choose an option
+                </option>
+                <option value="ff">Friends and family</option>
+                <option value="fb">Facebook</option>
+                <option value="ig">Instagram</option>
+                <option value="np">Newspaper</option>
+                <option value="ot">Others</option>
+              </select>
+            </div>
+
+            <a class="form__btn" href="#">Try for free</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-family: "Rubik";
+        font-size: 36px;
+        color: #333;
+        letter-spacing: 1.25px;
+      }
+      span {
+        font-size: 36px;
+        color: #e67e22;
+        /* letter-spacing: -6px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>F<span>OO</span>DY</h1>
+  </body>
+</html> 
+
+<!-- http://www.omnifood.net/#features -->
+<!-- https://dribbble.com/shots/15363785-Omnifood-Web-Design/attachments/7125409?mode=media -->
+
+<!-- https://dribbble.com/tags/omnifood -->
+<!-- https://omnifood.aniqa.dev/ -->
+
+<!-- https://ezekielcarvalho.github.io/Omnifood/index.html -->
